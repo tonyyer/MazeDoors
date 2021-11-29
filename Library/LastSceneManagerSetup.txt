@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Tutorial_Unity_Photon.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
