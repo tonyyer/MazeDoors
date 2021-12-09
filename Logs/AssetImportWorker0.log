@@ -15,11 +15,11 @@ E:/unam ilo/7 SEMESTRE/PROGRAMACION DE VIDEOJUEGOS 2/PRACTICAS/UNITY/luces/VRpro
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63441
+51911
 Successfully changed project path to: E:/unam ilo/7 SEMESTRE/PROGRAMACION DE VIDEOJUEGOS 2/PRACTICAS/UNITY/luces/VRproject2
 E:/unam ilo/7 SEMESTRE/PROGRAMACION DE VIDEOJUEGOS 2/PRACTICAS/UNITY/luces/VRproject2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 83.87 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 34.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -35,130 +35,453 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010407 seconds.
+Registered in 0.003047 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 135.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 93.86 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 11.082 seconds
+- Completed reload, in  3.040 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009413 seconds.
+Registered in 0.010740 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
 Mono: successfully reloaded assembly
-- Completed reload, in  3.670 seconds
+- Completed reload, in  3.196 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1246 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.0 MB.
-System memory in use after: 68.1 MB.
+Unloading 1376 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.5 MB.
+System memory in use after: 81.1 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1694.
-Total: 5.974500 ms (FindLiveObjects: 0.846600 ms CreateObjectMapping: 0.283300 ms MarkObjects: 4.594300 ms  DeleteObjects: 0.247400 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1833.
+Total: 4.406600 ms (FindLiveObjects: 0.396800 ms CreateObjectMapping: 0.106700 ms MarkObjects: 3.163900 ms  DeleteObjects: 0.736600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Photon Unity Networking/UtilityScripts/PhotonPlayer/PlayerRoomIndexing.cs
-  artifactKey: Guid(f5a097d1ab84b464395a16e9a7bb35b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon Unity Networking/UtilityScripts/PhotonPlayer/PlayerRoomIndexing.cs using Guid(f5a097d1ab84b464395a16e9a7bb35b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a599140a0df5a5dda3519ccbbde7b2a') in 0.098255 seconds
-  Import took 0.165412 seconds .
+  path: Assets/Animaciones/Materials/agua2.mat
+  artifactKey: Guid(00d6d256bb5c4b341a025ba7b8e0aaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animaciones/Materials/agua2.mat using Guid(00d6d256bb5c4b341a025ba7b8e0aaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c17dd8e2b6d8d421ad53d1c31015df') in 0.268050 seconds
+  Import took 0.275165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000931 seconds.
+  path: Assets/Animaciones/Materials/agua.mat
+  artifactKey: Guid(f3425919051632643924029404d5ace3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animaciones/Materials/agua.mat using Guid(f3425919051632643924029404d5ace3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4e01db8a09fc75de1f899c16cfc140') in 0.036563 seconds
+  Import took 0.041682 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004870 seconds.
+Registered in 0.005633 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
 Mono: successfully reloaded assembly
-- Completed reload, in  2.720 seconds
+- Completed reload, in  2.210 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1241 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.0 MB.
-System memory in use after: 68.0 MB.
+Unloading 1352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.8 MB.
+System memory in use after: 82.5 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1697.
-Total: 4.689100 ms (FindLiveObjects: 0.374800 ms CreateObjectMapping: 0.145400 ms MarkObjects: 3.981200 ms  DeleteObjects: 0.183600 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1876.
+Total: 2.471400 ms (FindLiveObjects: 0.307900 ms CreateObjectMapping: 0.069400 ms MarkObjects: 1.754400 ms  DeleteObjects: 0.337700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 182.734449 seconds.
+  path: Assets/Animaciones/textures/piso.jpeg
+  artifactKey: Guid(dd2328290e4ac324cb76c735fd51c0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animaciones/textures/piso.jpeg using Guid(dd2328290e4ac324cb76c735fd51c0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cca9f0419f74be1ebda5d65cea8a694') in 0.115709 seconds
+  Import took 0.121004 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004252 seconds.
+Registered in 0.039760 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.836 seconds
+- Completed reload, in  4.024 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1241 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.0 MB.
-System memory in use after: 68.1 MB.
+Unloading 1352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.8 MB.
+System memory in use after: 82.5 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1700.
-Total: 5.217000 ms (FindLiveObjects: 0.405500 ms CreateObjectMapping: 0.175000 ms MarkObjects: 4.490500 ms  DeleteObjects: 0.141000 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1881.
+Total: 5.322900 ms (FindLiveObjects: 0.473200 ms CreateObjectMapping: 0.186000 ms MarkObjects: 3.870600 ms  DeleteObjects: 0.788900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005278 seconds.
+Registered in 0.005467 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.557 seconds
+- Completed reload, in  2.449 seconds
 Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.9 MB.
+System memory in use after: 82.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1884.
+Total: 4.586000 ms (FindLiveObjects: 0.404500 ms CreateObjectMapping: 0.107600 ms MarkObjects: 3.227000 ms  DeleteObjects: 0.843400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 621.941652 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e7fe13e1b0de1c5ac041acd39a25f8') in 0.361939 seconds
+  Import took 0.368433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.595921 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03eb405a08a7d5fcb8eae3d3418c2c1a') in 0.047498 seconds
+  Import took 0.053261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.493988 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9db2e8b86329d9a9fceef96cf42dd6') in 0.027550 seconds
+  Import took 0.030820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.645762 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1108717e52196fbfff8023e6de295a') in 0.048552 seconds
+  Import took 0.054288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.135232 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e921f9fe507a5b0f1b6ac3ae244212') in 0.030714 seconds
+  Import took 0.034328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.577055 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884beebbe1924afece0bb6c374251e86') in 0.044269 seconds
+  Import took 0.050452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.591826 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e505f6eebd4455da8fa72dc570370c') in 0.039849 seconds
+  Import took 0.045429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.910296 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24de7f5d37beb68d1ac59720c6d78e59') in 0.042761 seconds
+  Import took 0.048387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.945669 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '357e544cc401a67640e9a54233883539') in 0.039594 seconds
+  Import took 0.046789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.732247 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56145a3e596bd40fdc90a54a9499470') in 0.037676 seconds
+  Import took 0.043298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.728855 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13dc861ad5d7be26662d4e65f1ea16e') in 0.046498 seconds
+  Import took 0.052468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.927715 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545cb8396b7aefffaa475dfe57d3c593') in 0.041389 seconds
+  Import took 0.047225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.393306 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1d86b4c259792cd5ab4b143396e6c2') in 0.050390 seconds
+  Import took 0.056957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.945056 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7cc49eeafb3c12bfbe7c4e8bb58a16') in 0.035579 seconds
+  Import took 0.041479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.313631 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889b03416ab81437a484edcfb4ab28ba') in 0.025525 seconds
+  Import took 0.031256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.502248 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c064feaa56f0d667449da77409be4f1c') in 0.021505 seconds
+  Import took 0.025220 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001589 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1241 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.0 MB.
-System memory in use after: 68.1 MB.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.861 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.6 MB.
+System memory in use after: 96.3 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1703.
-Total: 5.669900 ms (FindLiveObjects: 0.472100 ms CreateObjectMapping: 0.236400 ms MarkObjects: 4.786800 ms  DeleteObjects: 0.170100 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1889.
+Total: 6.061900 ms (FindLiveObjects: 0.526100 ms CreateObjectMapping: 0.196800 ms MarkObjects: 4.427200 ms  DeleteObjects: 0.908000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.059736 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdab053a3b99d0f65b45b913fb821f14') in 0.083414 seconds
+  Import took 0.086995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.025526 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3c0c69a848fffcff3bded555d58c58') in 0.021436 seconds
+  Import took 0.025586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.479727 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4cf8328fb6c009cf1c9bcae28733f1') in 0.026208 seconds
+  Import took 0.029397 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.307133 seconds.
+Registered in 0.003010 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.839 seconds
+- Completed reload, in  1.174 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1241 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.0 MB.
-System memory in use after: 68.1 MB.
+Unloading 1352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.6 MB.
+System memory in use after: 96.2 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1706.
-Total: 4.443400 ms (FindLiveObjects: 0.589000 ms CreateObjectMapping: 0.137100 ms MarkObjects: 3.559700 ms  DeleteObjects: 0.125900 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1893.
+Total: 4.508800 ms (FindLiveObjects: 0.503900 ms CreateObjectMapping: 0.195400 ms MarkObjects: 2.968200 ms  DeleteObjects: 0.838800 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002124 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.889 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.6 MB.
+System memory in use after: 96.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1896.
+Total: 2.000300 ms (FindLiveObjects: 0.214000 ms CreateObjectMapping: 0.058900 ms MarkObjects: 1.338800 ms  DeleteObjects: 0.387800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 166.601075 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727e81bd82ca875d159c0d6b80285cc3') in 0.090867 seconds
+  Import took 0.094038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.235629 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaab598a1b91ca959ac9bc7dc9aded06') in 0.029022 seconds
+  Import took 0.032546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.743811 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1615cbc2ccb64036adba1f8d022d5a83') in 0.031528 seconds
+  Import took 0.035518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.202127 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c909888190e1e9e19da71cb5cfe30c') in 0.032370 seconds
+  Import took 0.036636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.441653 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88550a11fcd1539119eff1b12db1a9de') in 0.025148 seconds
+  Import took 0.029283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.705532 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50387e4dedecc3b53c8569242184ddf8') in 0.037426 seconds
+  Import took 0.041676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.003275 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a476b2cfb5b954c927bd719a5af2193a') in 0.033091 seconds
+  Import took 0.036894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.879746 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543b8d35c12622fcbaa78f224904c690') in 0.029775 seconds
+  Import took 0.033559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.429610 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e344cbd913ca6969029ccfd6f09e3e') in 0.031378 seconds
+  Import took 0.036385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.661364 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab
+  artifactKey: Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Demos/DemoRPGMovement/Resources/JugadorUno_b.prefab using Guid(969313c2576ebcc4da45c2895445bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a745668c50357ac36b0574b582f03a') in 0.037665 seconds
+  Import took 0.044089 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001535 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.397 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.6 MB.
+System memory in use after: 96.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1900.
+Total: 4.624800 ms (FindLiveObjects: 0.528500 ms CreateObjectMapping: 0.223500 ms MarkObjects: 2.943500 ms  DeleteObjects: 0.926900 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.6 MB.
+System memory in use after: 69.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1900.
+Total: 4.299200 ms (FindLiveObjects: 0.267100 ms CreateObjectMapping: 0.083800 ms MarkObjects: 3.074300 ms  DeleteObjects: 0.870600 ms)
+

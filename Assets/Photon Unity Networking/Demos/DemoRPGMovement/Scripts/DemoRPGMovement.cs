@@ -20,7 +20,7 @@ public class DemoRPGMovement : MonoBehaviour
 
 	public void CreatePlayerUno()
 	{
-		Vector3 position = new Vector3( 33.5f, 1.5f, 20.5f );
+		Vector3 position = new Vector3( 56.7f, 7.9f, 77.8f );
 		GameObject newPlayerObject = PhotonNetwork.Instantiate( "JugadorUno", position, Quaternion.identity, 0 );
 		Camera.Target = newPlayerObject.transform;
 		Destroy(BotonPersonaje_01, 1);
@@ -31,8 +31,9 @@ public class DemoRPGMovement : MonoBehaviour
 
 	public void CreatePlayerDos()
 	{
-		Vector3 position = new Vector3( 33.5f, 1.5f, 20.5f );
-		GameObject newPlayerObject = PhotonNetwork.Instantiate( "JugadorDos", position, Quaternion.identity, 0 );
+		Vector3 position = new Vector3( 33.5f, 3.74f, 20.5f );
+		GameObject newPlayerObject = PhotonNetwork.Instantiate( "JugadorUno_b", position, Quaternion.identity, 0 );
+		// GameObject newPlayerObject = PhotonNetwork.Instantiate( "JugadorDos", position, Quaternion.identity, 0 );
 		Camera.Target = newPlayerObject.transform;
 		Destroy(BotonPersonaje_01, 1);
 		Destroy(BotonPersonaje_02, 1);
