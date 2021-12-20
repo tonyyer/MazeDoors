@@ -5,7 +5,6 @@ ScriptsOnlyBuild:
     Assembly-CSharp-firstpass.dll:
     - UnityStandardAssets.Effects.ExplosionPhysicsForce
     - UnityStandardAssets.Effects.ParticleSystemMultiplier
-    - UnityStandardAssets.Utility.ParticleSystemDestroyer
     Assembly-CSharp.dll:
     - AbriendoPuerta
     - ChatAppIdCheckerUI
@@ -139,8 +138,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1966}
     - Class: 114
-      Script: {instanceID: 2306}
-    - Class: 114
       Script: {instanceID: 2340}
     - Class: 114
       Script: {instanceID: 2528}
@@ -161,41 +158,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2870}
     - Class: 114
-      Script: {instanceID: 2968}
+      Script: {instanceID: 2964}
     - Class: 114
-      Script: {instanceID: 3010}
+      Script: {instanceID: 2970}
     - Class: 114
       Script: {instanceID: 3012}
     - Class: 114
-      Script: {instanceID: 3160}
+      Script: {instanceID: 3014}
     - Class: 114
-      Script: {instanceID: 3186}
+      Script: {instanceID: 3162}
     - Class: 114
-      Script: {instanceID: 3214}
+      Script: {instanceID: 3188}
     - Class: 114
-      Script: {instanceID: 3222}
+      Script: {instanceID: 3216}
     - Class: 114
-      Script: {instanceID: 3328}
+      Script: {instanceID: 3224}
     - Class: 114
-      Script: {instanceID: 3396}
+      Script: {instanceID: 3330}
     - Class: 114
-      Script: {instanceID: 3440}
+      Script: {instanceID: 3398}
     - Class: 114
-      Script: {instanceID: 3542}
+      Script: {instanceID: 3442}
     - Class: 114
-      Script: {instanceID: 3654}
+      Script: {instanceID: 3544}
     - Class: 114
-      Script: {instanceID: 3832}
+      Script: {instanceID: 3656}
     - Class: 114
-      Script: {instanceID: 3846}
+      Script: {instanceID: 3834}
     - Class: 114
-      Script: {instanceID: 3982}
+      Script: {instanceID: 3848}
     - Class: 114
-      Script: {instanceID: 3994}
+      Script: {instanceID: 3984}
     - Class: 114
-      Script: {instanceID: 4134}
+      Script: {instanceID: 3996}
     - Class: 114
-      Script: {instanceID: 77176}
+      Script: {instanceID: 4136}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1037,6 +1034,12 @@ ScriptsOnlyBuild:
     className: ControlPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: 8f83af3d6ca4b0a2ce479fe44be99720
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AbriendoPuerta
+  - hash:
+      serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1623,14 +1626,7 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Utility
     className: SimpleActivatorMenu
-  - hash:
-      serializedVersion: 2
-      Hash: 8f83af3d6ca4b0a2ce479fe44be99720
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AbriendoPuerta
   platform: 5
   scenePathNames:
   - Assets/Tutorial_Unity_Photon.unity
-  playerPath: E:/unam ilo/7 SEMESTRE/PROGRAMACION DE VIDEOJUEGOS 2/PRACTICAS/UNITY/luces/VRproject2/proyecto
-    final compilado/VRproject2.exe
+  playerPath: E:/unam ilo/7 SEMESTRE/INTERACCION HUMANO COMPUTADOR/ejecutable/VRproject2.exe
