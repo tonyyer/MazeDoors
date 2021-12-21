@@ -10,6 +10,7 @@ public class AbriendoPuerta : MonoBehaviour
         laPuerta.Play("AguaAbrir");
         laPuerta.Play("TerrenoAbrir2");
         laPuerta.Play("AguaAbrir2");
+        Debug.Log("Ganastesss");
     }
 
     private void OnTriggerExit(Collider other){

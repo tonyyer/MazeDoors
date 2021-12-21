@@ -17,6 +17,7 @@ ScriptsOnlyBuild:
     - ExitGames.Demos.DemoAnimator.PlayerUI
     - ExitGames.UtilityScripts.ButtonInsideScrollList
     - ExitGames.UtilityScripts.TextButtonTransition
+    - Final
     - IdleRunJump
     - IgnoreUiRaycastWhenInactive
     - NamePickGui
@@ -34,10 +35,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -193,6 +192,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3996}
     - Class: 114
       Script: {instanceID: 4136}
+    - Class: 114
+      Script: {instanceID: 20168}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1626,7 +1627,14 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Utility
     className: SimpleActivatorMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 37d496b0f861d5ec85232512aaaaba26
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Final
   platform: 5
   scenePathNames:
   - Assets/Tutorial_Unity_Photon.unity
-  playerPath: E:/unam ilo/7 SEMESTRE/INTERACCION HUMANO COMPUTADOR/ejecutable/VRproject2.exe
+  playerPath: E:/unam ilo/7 SEMESTRE/INTERACCION HUMANO COMPUTADOR/EXMANEN PARCIAL
+    PROYECTO/VRproject2.exe
